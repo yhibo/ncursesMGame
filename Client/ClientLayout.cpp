@@ -313,7 +313,7 @@ void ClientLayout::drawBorders(WINDOW* window, int centrey, int centrex, int tot
             mvwaddch(window, abs(startingRow) - 1, i, MAIN_MENU_BORDER_CHARACTER);
         }
     }
-    // Button border
+    // Bottom border
     if (centrey + (totalRowVisitable / 2) >= MAP_HEIGHT) {
         startingRow = (MAP_HEIGHT + 1 - centrey) + (totalRowVisitable / 2);
 
