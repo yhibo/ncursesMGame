@@ -25,7 +25,7 @@ To build and run ncursesMGame, follow these steps:
 3. Navigate to the project directory and run `make` to build the executable.
 4. Launch the server by running `./server`.
 5. Launch the client(s) by running `./client` on one or more machines.
-6. Follow the on-screen instructions to join the game and start playing.
+6. Start playing.
 
 ## Contributing
 
