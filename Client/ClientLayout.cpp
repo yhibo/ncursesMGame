@@ -216,7 +216,7 @@ void ClientLayout::drawPowerUp(int16_t y, int16_t x, WINDOW* window){
     }
 }
 
-void ClientLayout::handleResize(int sig){
+void ClientLayout::handleResize([[maybe_unused]] int sig){
     endwin();
     deleteWindow(window);
     //int mx, my;
